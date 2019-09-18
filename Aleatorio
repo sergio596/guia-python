@@ -1,0 +1,25 @@
+#Aleatorio.py
+#Autor: Sergio Sigala
+# Fecha 13/09/2019
+
+
+# se importa una libreria que sirve para numeros al azar con import random
+
+import random
+
+# una funcion sirve para reatulizar codigo como para muchas cosas mas
+#todo dentro de ella forma parte de la funcion 
+def suma(numero1,numero2):
+    resultado= numero1+numero2
+    return resultado
+
+#declare una variable de tipo float asignandole un valor
+numero1=float(15.5)
+#aqui la random.randrange me arroja un numero al azar de tipo
+#float
+numero2=float(random.randrange(1,10))
+
+#se muestra en pantalla el resultado de la suma
+#las llaves {} son los numeros a evaluar y resultado
+mensaje= "la suma de {} y {} es {}"
+print(mensaje.format(numero1,numero2,numero1+numero2))
