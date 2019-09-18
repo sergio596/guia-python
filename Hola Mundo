@@ -1,0 +1,10 @@
+#HolaMundo.py
+#Autor: Sergio Sigala
+#Fecha de craeacion 13/09/2019
+
+
+
+#aqui solamente la herramineta print lo que hace es imprimir el texto o
+# tambien pueden ser numeros o cualquier cosa que este expresada con parentesis lo muestra
+#  en la pantalla al ejectutarlo
+print(" Hola mundo: ")
