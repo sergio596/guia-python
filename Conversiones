@@ -1,0 +1,18 @@
+#Conversiones.py
+# Autor: Sergio Sigala
+# fecha 13/09/2019
+
+
+# aqui le di valor a una variable str almacene una cadena de numeros enteros
+num="1234"
+# aqui la funcion type adentro del print muestra el tipo de variable que es num y lo muestra
+#en pantalla
+print(type(num))
+#estoy cambiando la variable de tipo str a int que es para los numeros enteros
+num=int(num)
+#se imprime en pantalla el nuevo tipo de dato de num
+print(type(num))
+
+#aqui imprime el numero que se utilizo por eso se ponen llaves {}
+salida= "el numero utilizado es {}"
+print(salida.format(num))
