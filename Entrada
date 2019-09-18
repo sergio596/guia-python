@@ -1,0 +1,20 @@
+#Entrada
+#Autor: Sergio Sigala
+# 15/09/2019
+
+#aqui entra informacion del teclado con la funcion input y se 
+# imprime el tipo de dato introducido
+entrada=input()
+print(type(entrada))
+
+
+#si el dato es entero es True
+esEntero=(entrada.isdigit() and entrada.find(".")==-1)
+
+# la funcion if lo que hace es evaluar la condicion que si es entero imprima dato entero muy bien
+if esEntero:
+    print(" dato entero. !Muy bien¡")
+
+#else es lo que va a pasar si if no sale como True 
+else:
+     print("Dato no es entero. Intente nuevamente:")
