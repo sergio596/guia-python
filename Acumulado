@@ -1,0 +1,20 @@
+#Acumulado
+#Autor: Sergio Sigala
+# 15/09/2019
+
+# declaro las variables 
+acumulado=int(0)
+numero=str("")
+# while solo pasara si esta True y esto hara un bucle infinito hasta
+# que se haga un fin (braek)
+while True:
+    numero=input(" Dame un numero entero: ")
+    if numero=="":
+        print(" vacio. salida del programa: ")
+        break
+    else:
+        #el valor proporcionando se va acumulado
+        # se usa el calculo usando suma
+        acumulado+=int(numero)
+        salida="Monto acumulado:{}"
+        print(salida.format(acumulado))
