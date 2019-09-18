@@ -1,0 +1,16 @@
+#Nombre
+#Autor: Sergio Sigala
+# 15/09/2019
+
+#declaro una variables la cual se le agrega la funcion input 
+# en nombre se almacena sus nombres y en apellidos se guardan 
+nombre=input(" ¿Cual es tu nombre?:")
+apellidos=input(" ¿Dime tus apellidos?:")
+
+#se crea una nueva variable adentro de ella estara almacenada el nombre mas apellidos
+nombreCompleto= nombre+""  + apellidos
+
+#se manda a imprimir en pantalla nombre completo y apellidos con la funcion upper convierte la cadena a 
+#MAYUSCULAS
+nombreCompleto=nombreCompleto.upper()
+print(" tu nombre es", nombreCompleto)
