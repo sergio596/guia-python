@@ -1,0 +1,25 @@
+#Compara
+#Autor: Sergio Sigala
+# 19/09/2019
+
+
+
+#le pido al usuario 2 numeros enteros los cuales almaceno en las variables numero1 y numero2
+numero1=int(input(" Dime el numero 1: "))
+numero2=int(input(" dime el numero 2: "))
+
+
+# este codigo lo que hace es que si los numeros proporcionados son iguales 
+# se imprime lo siguiente 
+if numero1==numero2:
+    print(" el numero {} y {} son iguales: ")
+
+
+# adentro del else otro if el cual compara los numeros y decide cual es el mayor
+else:
+     if numero1>numero2:
+         print( "Numero 1 es mayor que numero : ")
+    
+    #aqui se imprime si el numero 2 es mayor
+     else:
+        print(" numero 2 es mayor que numero 1:")
