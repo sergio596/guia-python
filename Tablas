@@ -1,0 +1,19 @@
+#Tablas
+#Autor: Sergio Sigala
+# 15/09/2019
+
+
+
+for i in range(1,11):
+    encabezado="Tabla del{}"
+    print(encabezado.format(i))
+# el print solo es para dar un salto de linea 
+    print()
+
+    for j in range(1,11):
+        # i es el numero base de la tabla
+        salida="{} x {} = {}"
+        print(salida.format(i,j,i*j))
+    else:
+        #este es un salto de linea
+        print()
