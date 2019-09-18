@@ -1,0 +1,19 @@
+#multiplo
+#Autor: Sergio Daniel Sigala Hernandez
+# 13/09/2019S
+
+# le pido un numero al usuario y lo almaceno en la variable numero
+# si el residuo es 0 significa que es multipo
+
+numero=int(input(" dame un numero entero:"))
+#selecciono de que numeros quiero que me diga los multiplos  de 3,5 y 7
+esMultiplo3=((numero%3)==0)
+esMultiplo5=((numero%5)==0)
+esMultiplo7=((numero%7)==0)
+
+# el operador and es verdadera mientras todas las condiciones sean verdaderas 
+# operador or con que solo tengas 1 verdadera su salida es True 
+if ((esMultiplo3 and esMultiplo5) or esMultiplo7):
+    print("correcto.")
+else:
+    print("incorrecto")
